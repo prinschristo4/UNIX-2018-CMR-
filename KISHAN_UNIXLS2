@@ -1,16 +1,10 @@
-LAB SESSION-2
-
-1. who- Lists who is logged on your device
-2. who am i- Displays our details
-3. cal - Shows the calendar
-4. uname- Shows the user language(Linux)
-5. date- Prints the date
-6. ls- Lists file in current directory
-7. man- Online manual about command
-8. ls-l- Long list of directories
-9. ls-a- Shows hidden files
-10.ls-F- Classifies the files
-11.time- Prints the current time
-12.ls-R- Shows subdirectories
-
- 
+LAB SESSION-2(Contd.)
+*FILTER COMMANDS*
+cat *filename*.csv- Small files(Create,View)
+csv *filename* -  (Comma Seperated Values)
+head-n5 *filename*.csv - Reads from top
+tail n5 *filename*.csv - Reads from bottom
+cut  -d(,) ,-f *fieldnmuber* *filename*- Extracts the particular field 
+paste *f1*+*f2*->*f3*- Join two files (horizontal arrangement)
+sort -r *filename*.csv- Reverse order display; sort *filename*- Order display
+wc- Gives word count
