@@ -10,3 +10,6 @@ ls-a- Shows hidden files
 ls-F-Classifies files
 ls-R-Shows subdirectory
 time- Prints the current time
+copy *filename1* *filename2*- Copies contents of one file to another(From File 1 to File 2)
+uniq  *filename*.csv- Removes repetitions in the file(Names,Numbers etc.)
+wc *filename*.csv- Gives line, character, number count
