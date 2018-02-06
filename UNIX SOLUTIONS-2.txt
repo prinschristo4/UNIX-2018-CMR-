@@ -23,7 +23,8 @@ A.  echo "Enter the number"
 4. Sort only name field for CSEB.csv
 A. sort -k1 CSEB.csv
 5.Replace Name with Student's Name
-A. $tr "Name" "Student's Name" CSEB.csv
+A. cut -d -f2 CSEB.csv
+   $tr "Student's Name" "Name" 
 
 
 
