@@ -1,15 +1,15 @@
 1. Write a shell script to display only datw and time from date command
 A. date +%r.+%d
 2. Write a shell script to check whether a number is +ve or -ve 
-A.echo "Enter the number"
-  read number
-  if test $number -gt 0
-  then
+A. echo "Enter the number"
+   read number
+   if test $number -gt 0
+   then
         echo "its positive"
-  else
+   else
         echo "negative"
 
-  fi
+   fi
 3. Write a shell script to display a student"s grade
 A.  echo "Enter the number"
     read number
